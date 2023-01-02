@@ -1,0 +1,142 @@
+.App {
+  
+  background-color:gray;
+
+}
+.top{
+
+ height: 40px;
+ padding: 10px;
+background-color:black;
+
+
+}
+
+.innerbody{
+ background-color:gray;
+ display: inline-block;
+
+}
+
+
+.unorderlist{
+ 
+ background-color: gray;
+ padding: 8px;
+ 
+ }
+
+
+li {
+ display: inline-block;
+ padding: 0 15px ;
+ 
+}
+
+.list{
+ color: black;
+}
+
+ .active {
+ color: blue;  
+}
+.patient{
+ margin: 10px;
+ border-radius: 5px;
+ border:solid 2px;
+ background-color: white;
+ padding: 50px;
+ 
+}
+.patientdetails{
+ color: blue;
+}
+
+.full_body{
+ background-color:white;
+ border-radius: 5px;
+ margin: 10px;
+}
+
+.body{
+ display: inline-block;
+ width:92%;
+ background-color:white;
+ margin: 10px;
+ }
+
+.year{
+ display: inline-block;
+ float: left;
+ border-radius: 5px;
+ background-color:white;
+ padding: 8px;
+}
+
+.split{
+ border-radius: 5px;
+ background-color: white;
+ padding: 3px;
+}
+
+
+.outer{
+ 
+ border:solid 2px;
+ border-radius: 6px;
+ padding: 5px;
+ margin:10px;
+ background-color: white;
+}
+
+.doctor{
+ float: right;
+ font-size: large;
+ 
+
+}
+.details{
+font-size: medium;
+display:inline-block ;
+ padding: 5px;
+}
+
+.content{
+ margin: 0;
+ padding: 5px;
+ 
+}
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+ .App-logo {
+   animation: App-logo-spin infinite 20s linear;
+ }
+}
+.App-header {
+ background-color: #282c34;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ font-size: calc(10px + 2vmin);
+ color: white;
+}
+
+.App-link {
+ color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+ from {
+   transform: rotate(0deg);
+ }
+ to {
+   transform: rotate(360deg);
+ }
+}
